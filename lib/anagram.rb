@@ -18,7 +18,7 @@ class Anagram
 
     #return all matches or empty array
 
-  end
+
 
 # here I am looking for diapers => not a match
 #["hello", "world", "zombies", "pants", "dipper"]
