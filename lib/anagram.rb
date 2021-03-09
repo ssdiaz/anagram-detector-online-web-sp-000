@@ -9,9 +9,9 @@ class Anagram
   def match(array)
     array.find do |array_word|
 
-      if  array_word.split("").sort# == @word#.split("").sort
-      puts "hi"
-      end
+      # if  array_word.split("").sort# == @word#.split("").sort
+      # puts "hi"
+      # end
       end
     end
 
