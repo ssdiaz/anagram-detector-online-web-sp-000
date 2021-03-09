@@ -14,8 +14,8 @@ class Anagram
 
         end
         
-      end 
-      
+      end
+
     end
 
     #return all matches or empty array
