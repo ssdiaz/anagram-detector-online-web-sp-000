@@ -8,20 +8,9 @@ class Anagram
 
   def match(array)
     array.select do |array_word|
-array_word.split("").sort == @word.split("").sort
-        # if  array_word.split("").sort == @word#.split("").sort
-        #   @word
-        # end
-
+      array_word.split("").sort == @word.split("").sort
       end
 
     end
 
-# here I am looking for diapers => not a match
-#["hello", "world", "zombies", "pants", "dipper"]
-# => "gallery"
-# 2.6.1 :005 > word.split("").sort
-# => ["a", "e", "g", "l", "l", "r", "y"]
-# 2.6.1 :006 > face = "yllerga"
-# => "yllerga"
 end
