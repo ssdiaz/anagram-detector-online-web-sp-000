@@ -10,7 +10,7 @@ class Anagram
     array.find do |array_word|
 
       if  array_word.split("").sort# == @word#.split("").sort
-        word
+      puts "#{@word}"
       end
       end
     end
