@@ -9,10 +9,13 @@ class Anagram
   def match(array)
     array.map do |array_word|
 
-      if  array_word.split("").sort == word#.split("").sort
-      #puts "hi"
-      end
-      end
+        if  array_word.split("").sort == word#.split("").sort
+          word
+
+        end
+        
+      end 
+      
     end
 
     #return all matches or empty array
