@@ -6,10 +6,11 @@ class Anagram
     @word = word
   end
 
-  def match(word_array)
-    word_array.find do |some_word|
-      if some_word == word
-        puts "match"
+  def match(array)
+    array.find do |array_word|
+
+      if array_word.split("").sort == word.split("").sort
+        word
       end
     end
 
@@ -18,7 +19,7 @@ class Anagram
 
   end
 
-
-
+# here I am looking for diapers => not a match
+#["hello", "world", "zombies", "pants", "dipper"]
 
 end
