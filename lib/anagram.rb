@@ -10,7 +10,7 @@ class Anagram
     array.map do |array_word|
 
       if  array_word.split("").sort == word#.split("").sort
-      puts "hi"
+      #puts "hi"
       end
       end
     end
