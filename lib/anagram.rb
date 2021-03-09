@@ -21,5 +21,9 @@ class Anagram
 
 # here I am looking for diapers => not a match
 #["hello", "world", "zombies", "pants", "dipper"]
-
+# => "gallery"
+# 2.6.1 :005 > word.split("").sort
+# => ["a", "e", "g", "l", "l", "r", "y"]
+# 2.6.1 :006 > face = "yllerga"
+# => "yllerga"
 end
