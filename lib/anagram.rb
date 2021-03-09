@@ -6,10 +6,14 @@ class Anagram
     @word = word
   end
 
-  def match(array)
+  def match(word_array)
+    word_array.find do |some_word|
+      if some_word == word
+        puts "match"
+      end
+    end
 
 
-    
     #return all matches or empty array
 
   end
