@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(array)
-    array.find do |array_word|
+    array.each do |array_word|
 
       if  array_word.split("").sort# == @word#.split("").sort
       puts "hi"
@@ -15,10 +15,7 @@ class Anagram
       end
     end
 
-
     #return all matches or empty array
-
-
 
 # here I am looking for diapers => not a match
 #["hello", "world", "zombies", "pants", "dipper"]
