@@ -6,14 +6,14 @@ class Anagram
     @word = word
   end
 
-  def match(array)
-    # array.find do |array_word|
-    #
-    #   # if  array_word.split("").sort# == @word#.split("").sort
-    #   # puts "hi"
-    #   # end
-    #   end
-    end
+  # def match(array)
+  #   # array.find do |array_word|
+  #   #
+  #   #   # if  array_word.split("").sort# == @word#.split("").sort
+  #   #   # puts "hi"
+  #   #   # end
+  #   #   end
+  #   end
 
 
     #return all matches or empty array
